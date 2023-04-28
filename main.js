@@ -10,13 +10,15 @@ class FoodItem {
 
 function totalCalories() {
     let foodName = document.getElementById("foodName").value;
-    let calories = document.getElementById("calorie").value;
+    let calories = parseInt(document.getElementById("calorie").value);
+    document.getElementById("foodName").value = "";
+    document.getElementById("calorie").value = "";
     let foodItem = new FoodItem(foodName, calories);
     foodItems.push(foodItem);
     let totalCal = 0;
     for (var i = 0; i < foodItems.length; i++) {
         let item = foodItems[i];
-        totalCal += parseInt(item.calories);
+        totalCal += item.calories;
     }
     document.getElementById("totalCalories").value = totalCal;
     console.log(foodItems);
