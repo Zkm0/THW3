@@ -22,6 +22,7 @@ function totalCalories() {
     }
     document.getElementById("totalCalories").value = totalCal;
     console.log(foodItems);
+    
 
 }
 

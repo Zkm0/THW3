@@ -2,4 +2,28 @@
     margin: 50px;
     font-family: Helvetica, sans-serif;
     font-size: 150%;
-}
+background-color: #d8bfd8; 
+  }
+  
+  input[type="text"], input[type="number"], button {
+    background-color: #ffb6c1; 
+    border: 2px solid #e75480;; 
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+
+  button {
+    color: hsla(0, 0%, 0%, 0.99);
+    background-color: #add8e6; 
+    cursor: pointer;
+  }
+  
+  #calories {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+  }
+  
