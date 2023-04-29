@@ -24,6 +24,7 @@ function totalCalories() {
     console.log(foodItems);
     
 
+    
 }
 
 
