@@ -5,6 +5,8 @@
 background-color: #d8bfd8; 
   }
   
+
+  
   input[type="text"], input[type="number"], button {
     background-color: #ffb6c1; 
     border: 2px solid #e75480;; 
@@ -13,6 +15,7 @@ background-color: #d8bfd8;
     margin: 10px;
   }
   
+
 
   button {
     color: hsla(0, 0%, 0%, 0.99);
